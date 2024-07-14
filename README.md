@@ -1,5 +1,5 @@
 # rose-bit829.github.io
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
 <meta charset= "utf-8">
