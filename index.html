@@ -18,48 +18,48 @@
 
     <style>
       /*navbar style*/
-      #header-nav {
-        background-color: gray;
-        border: 0;
-        width: 2000px;
-        margin-left: 0;
-        margin-right: 0;
-        border-radius: 0;
-       /*border-width: 100%;*/
-       position: fixed;
-       top: 0;
-      /*width: 2000px;*/
-    }
-    .navbar-brand h1 {
-       margin-top: 20px;
-    }
-    .menu {
-      border: 1px solid black;
-      background-color: gray;
-    }
+#header-nav {
+  background-color: gray;
+  border: 0;
+  width: 2000px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 0;
+  /*border-width: 100%;*/
+  position: fixed;
+  top: 0;
+  /*width: 2000px;*/
+}
+.navbar-brand h1 {
+  margin-top: 20px;
+}
+.menu {
+  border: 1px solid black;
+  background-color: gray;
+}
      /* Dropdown Menu*/
-    ul {
-      list-style: none;
-      background-color: gray;
-    }
-    .dropdown {
-       list-style: none;
-    }
-    ul li {
-      display: inline-block;
-      position: relative;
-   }
-   ul li a {
-     list-style: none;
-     display: block;
-     padding: 5px 10px;
-     color: black;
-     text-decoration: none;
-     text-align: center;
-   }
-   ul li ul.drowdown li {
+ul {
+  list-style: none;
+  background-color: gray;
+}
+.dropdown {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+}
+ul li a {
+  list-style: none;
+  display: block;
+  padding: 5px 10px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+ul li ul.drowdown li {
   /*display: none;*/
-   width: 1200px;
+  width: 1200px;
 
 }
 ul li ul.dropdown {
@@ -81,6 +81,7 @@ ul li:hover ul.dropdown {
 .page-heading {
   margin-top: 150px;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .section-style {
@@ -97,6 +98,7 @@ ul li:hover ul.dropdown {
 .p-name {
   font-weight: bold;
   padding-top: 10px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -114,7 +116,7 @@ ul li:hover ul.dropdown {
   </head>
 <body>
   <header>
-   <nav id="header-nav">
+   <nav class="container-fluid" id="header-nav">
      <div class="navbar-brand">
       <h1>Food,LLC</h1>
      </div>
