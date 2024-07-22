@@ -15,49 +15,51 @@
     <title>assignment 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+
     <style>
       /*navbar style*/
-#header-nav {
-	background-color: gray;
-	border: 0;
-	border-radius: 0;
-	/*border-width: 100%;*/
-	position: fixed;
-	top: 0;
-	width: 2000px
-	margin-left: 0;
-	margin-right: 0;
-}
-.navbar-brand h1 {
-	margin-top: 20px;
-}
-.menu {
-	border: 1px solid black;
-	background-color: gray;
-}
+      #header-nav {
+        background-color: gray;
+        border: 0;
+        width: 2000px;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+       /*border-width: 100%;*/
+       position: fixed;
+       top: 0;
+      /*width: 2000px;*/
+    }
+    .navbar-brand h1 {
+       margin-top: 20px;
+    }
+    .menu {
+      border: 1px solid black;
+      background-color: gray;
+    }
      /* Dropdown Menu*/
-ul {
-  list-style: none;
-  background-color: gray;
-}
-.dropdown {
-	list-style: none;
-}
-ul li {
-  display: inline-block;
-  position: relative;
-}
-ul li a {
-  list-style: none;
-  display: block;
-  padding: 5px 10px;
-  color: black;
-  text-decoration: none;
-  text-align: center;
-}
-ul li ul.drowdown li {
+    ul {
+      list-style: none;
+      background-color: gray;
+    }
+    .dropdown {
+       list-style: none;
+    }
+    ul li {
+      display: inline-block;
+      position: relative;
+   }
+   ul li a {
+     list-style: none;
+     display: block;
+     padding: 5px 10px;
+     color: black;
+     text-decoration: none;
+     text-align: center;
+   }
+   ul li ul.drowdown li {
   /*display: none;*/
-  width: 1200px;
+   width: 1200px;
 
 }
 ul li ul.dropdown {
@@ -77,45 +79,42 @@ ul li:hover ul.dropdown {
 
 /*Section style*/
 .page-heading {
-	text-align: center;
-	margin-top: 150px;
-	margin-bottom: 25px;
-	
+  margin-top: 150px;
+  margin-bottom: 25px;
 }
 
 .section-style {
-	border: 0;
-	background-color: lightblue;
-	height: 2100px;
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-top: 25px;
-	padding-right: 25px;
-	padding-left: 25px;
+  border: 0;
+  background-color: lightblue;
+  height: 2100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .p-name {
-	text-align: center;
-	font-weight: bold;
-	padding-top: 10px;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 @media (min-width: 768px) {
-	ul {
-		display: none;
-		text-decoration: none;
-		clear: both;
-	}
-	.dropdown li a {
-		width: 1500px;
-	}
+  ul {
+    display: none;
+    text-decoration: none;
+    clear: both;
+  }
+  .dropdown li a {
+    width: 1500px;
+  }
 }
 
     </style>
   </head>
 <body>
   <header>
-   <nav class="container-fluid" id="header-nav">
+   <nav id="header-nav">
      <div class="navbar-brand">
       <h1>Food,LLC</h1>
      </div>
